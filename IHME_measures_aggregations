@@ -1,0 +1,12 @@
+Can diferent measures be aggragated to obtain totals?
+We have created a dashboard with charts representing various measures acorss years for a given location across causes.
+The chart consists of vertically stacked bars representing valuses corresponding to various measures for different causes.
+The units can either be numbers or rates.
+We calculate total as the sum of values associated with causes for a given year and location. The total is then used to denote a representative for for a given year and also
+for calculating the percentage breakdown for each cause.
+We would like to confirm if the total for all measures can be calculated as a simple sum of values.
+The reason behind our doubts is the observation, that the value associalted with 'All Causes' for a given measure does not equal to the sum of individual values associated with causes.
+We have observed that for example that the value associated with 1.6 Eating disorders is the sum of values representing 1.6.1. Bulimia nervosa and 1.6.2 Anorexia nervosa. Similarly, the value
+assocoated with 1. Mental disorders is equal to the sum of values corresponding to causes forming the higher herarchy group starting with 1.1 Other mental disorders ending on 1.10 Schizophrenia.
+Of course once 1.6 Eating disorders are included, then 1.6.1 and 1.6.2 cannot be added separately.
+
