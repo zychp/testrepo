@@ -1,0 +1,20 @@
+
+Subject: Request for Clarification on Calculating Aggregations of Brain Health Data in IHME Portal
+
+Dear Shayla Smith,
+
+I hope this message finds you well. I am writing on behalf of our team regarding some queries we've encountered while working with brain health data from the IHME portal.
+
+We've successfully constructed a dashboard that visualizes various measures across different years for a specific location concerning different causes. The charts utilize vertically stacked bars to represent values corresponding to these measures across causes. These values are presented in units of either numbers or rates.
+
+Our primary concern lies in calculating the total values for these measures, which we've been determining as the sum of values associated with causes for a given year and location. This total serves as a representative for a specific year and is pivotal in calculating the percentage breakdown for each cause.
+
+However, we've encountered a discrepancy when attempting to reconcile the total values. Specifically, when summing individual values associated with causes, the total does not align with the value attributed to 'All Causes.' For instance, we've noticed that the value linked to 'All Causes' for a particular measure does not equal the sum of individual values linked to causes.
+
+Upon closer inspection, we observed that certain hierarchical relationships impact this aggregation. For instance, the value attributed to '1.6 Eating disorders' is the cumulative sum of values representing '1.6.1 Bulimia nervosa' and '1.6.2 Anorexia nervosa.' Similarly, the value denoted by '1. Mental disorders' aligns with the collective sum of values corresponding to causes within the higher hierarchical group, starting from '1.1 Other mental disorders' and culminating at '1.10 Schizophrenia.' This hierarchical structure complicates the individual addition of values, especially when including broader categories.
+
+We seek clarification regarding the appropriate methodology for calculating the total values for all measures in a manner that accurately represents the data. Specifically, we aim to understand if the total for all measures can indeed be calculated straightforwardly as a simple sum of values, given the observed discrepancies.
+
+Your insights and guidance on this matter would be immensely valuable to us in ensuring the accuracy of our data interpretations and representations within our dashboard.
+
+Thank you for your time and assistance in addressing these concerns. We eagerly await your guidance and clarification on this matter.
